@@ -13,9 +13,9 @@
         <h4>생성할 테이블의 행과 열을 입력해 주세요</h4>
     </header>
     <section>
-        <!--action 작성한걸 누구한테 보내주냐 -->
+        <!--action 작성한걸 누구한테 보내주냐/ method : post  -->
         <form name="table_form" action="table_res.php" method="get">
-            <table class="w3-table w3-table-all">
+            <table class="w3-table w3-bordered w3-hoverable">
                 <tr>
                     <td style="width:20%">행 갯수</td>
                     <td>
@@ -29,7 +29,7 @@
                 <tr>
                     <td style = "width:20%">열 갯수</td>
                     <td>
-                        <select class="w3-select w3-border" name="row">
+                        <select class="w3-select w3-border" name="col">
                             <? for($i=1; $i<=10; $i++){
                                 echo '<option value="'.$i.'">'.$i.'</option>';
                             } ?>
@@ -37,7 +37,7 @@
                     </td>
                 </tr>
             </table>
-            <div>
+            <div class="w3-center w3-margin">
                 <button type="submit" class="w3-button w3-teal">확인</button>
             </div>
         </form>
