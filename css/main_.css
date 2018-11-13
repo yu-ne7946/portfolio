@@ -1,7 +1,0 @@
-.wrap{width:100%; max-width:1200px; margin:0 auto;}
-.header{text-align:center;}
-.header > .logo{font-size:2em; height:60px; line-height:60px; float:left;} 
-.header > .title{display:inline-block; font-size:2em; height:60px; line-height:60px;} 
-.header > .bar{font-size:2em; height:60px; line-height:60px; float:right;} 
-.menus {margin-top:50px;}
-.menus > li{width:33.33%; float:left; border:1px solid #ccc; text-align:center; padding:10px;}
