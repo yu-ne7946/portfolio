@@ -1,0 +1,3 @@
+@import "base.css"; /* 이렇게 해놓으면 index.php에서 알아서 base.css도 불러줌 */
+
+.wrap{width:100%; max-width:1200px; margin:0 auto;}
