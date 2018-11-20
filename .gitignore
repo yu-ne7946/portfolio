@@ -1,8 +1,9 @@
 dbconfig.php
-.vscode
+connect.php
 sftp.json
 .htaccess
-
+.vscode
+*.mp3
 
 
 
